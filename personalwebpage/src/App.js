@@ -66,7 +66,7 @@ class App extends React.Component {
 
               <Route path="/contact" exact render={ () => 
                 <ContactPage 
-                  title={this.state.about.title}
+                  title={this.state.contact.title}
                 /> } 
               />
 
