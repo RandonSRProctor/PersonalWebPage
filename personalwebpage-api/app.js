@@ -26,11 +26,11 @@ app.get('/api', (req, res, next) => {
 
 app.post('/api/email', (req, res, next) => {
 
-    sendGrid.setApiKey('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');
+    sendGrid.setApiKey(process.env.SENDGRID_API_KEY);
     const msg = {
-        to:'randyproctor@gmail.com',
-        from: req.body.email, 
-        subject: 'Website Contact',
+        to:'contact@randyproctor.net',
+        from: 'contact@randyproctor.net', 
+        subject: `Website Contact from ${req.body.email}`,
         text: req.body.message
     }
 

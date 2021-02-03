@@ -2,6 +2,8 @@ import React from 'react'
 
 import Card from './Card'
 
+import TetrisApp from '../assets/images/TetrisApp.png'
+import WeatherApp from '../assets/images/WeatherApp.png'
 import RandyProctorCropped from '../assets/images/RandyProctorCropped.png'
 import { Container, Row } from 'react-bootstrap';
 
@@ -13,18 +15,20 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Dev Grub',
-                    subTitle: 'The cookbook for developers',
-                    imgSrc: RandyProctorCropped,
-                    link: 'https://devgrub.com',
+                    title: 'Weather Website',
+                    subTitle: 'Weather report from anywhere in the world.',
+                    description: 'Node.js using Express for API calls',
+                    imgSrc: WeatherApp,
+                    link: 'https://rsrp-nodejs-weather-app.herokuapp.com/',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Dev Grub',
-                    subTitle: 'The cookbook for developers',
-                    imgSrc: RandyProctorCropped,
-                    link: 'https://devgrub.com',
+                    title: 'Tetris App',
+                    subTitle: 'A Simple Tetris Clone',
+                    description: 'Built using Vanilla JS',
+                    imgSrc: TetrisApp,
+                    link: 'http://127.0.0.1:5500/index.html',
                     selected: false
                 },
                 {
