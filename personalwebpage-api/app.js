@@ -1,11 +1,12 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-
 const sendGrid = require('@sendGrid/mail');
 
+require('dotenv').config({path: './sendgrid.env'})
 
 const app = express();
+
 
 
 app.use(bodyParser.json());
@@ -25,8 +26,9 @@ app.get('/api', (req, res, next) => {
 });
 
 app.post('/api/email', (req, res, next) => {
-
+debugger
     sendGrid.setApiKey(process.env.SENDGRID_API_KEY);
+    
     const msg = {
         to:'contact@randyproctor.net',
         from: 'contact@randyproctor.net', 
