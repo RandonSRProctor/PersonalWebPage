@@ -30,7 +30,7 @@ debugger
     sendGrid.setApiKey(process.env.SENDGRID_API_KEY);
     
     const msg = {
-        to:'contact@randyproctor.net',
+        to:'randyproctor@gmail.com',
         from: 'contact@randyproctor.net', 
         subject: `Website Contact from ${req.body.email}`,
         text: req.body.message
