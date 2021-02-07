@@ -2,9 +2,9 @@ import React from 'react'
 
 import Card from './Card'
 
-import TetrisApp from '../assets/images/TetrisApp.png'
+import TetrisApp from '../assets/images/TetrisColor.png'
 import WeatherApp from '../assets/images/WeatherApp.png'
-import RandyProctorCropped from '../assets/images/RandyProctorCropped.png'
+import MathPractice from '../assets/images/MathPractice.png'
 import { Container, Row } from 'react-bootstrap';
 
 class Carousel extends React.Component {
@@ -35,7 +35,7 @@ class Carousel extends React.Component {
                     id: 2,
                     title: 'Dev Grub',
                     subTitle: 'The cookbook for developers',
-                    imgSrc: RandyProctorCropped,
+                    imgSrc: MathPractice,
                     link: 'https://devgrub.com',
                     selected: false
                 }
