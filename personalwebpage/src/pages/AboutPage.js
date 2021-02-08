@@ -11,10 +11,16 @@ function AboutPage(props) {
             />
 
             <Content>
-                <p>Randy Proctor is a bad dude.</p>
-                <p>And not the bad kind of bad.</p>
-                <p>When I say bad, I mean good.</p>
-                <p>And when I say good, I mean <i>bad to the bone.</i></p>
+                <p>Randy Proctor is fullstack developer from Cincinnati, OH.</p>
+                <p>Randy graduated from Tech Elevator Bootcamp in 2020.</p>
+                <p>Randy's original stack was Javascript for frontend, Java for backend, and relational DBs.</p>
+                <p>Randy has since learned to use NoSQL DBs and JS frameworks such as Vue.js and React</p>
+                <p>as well as Node.js and Express for his backend.</p>
+                <p>In addition to coding, Randy enjoys investing into the Cincinati tech community.</p>
+                <p>Randy volunteers for Cincinnati Software Craftsmanship and returns to Tech Elevator</p>
+                <p>to encourage and help with new developers as they begin their journey.</p>
+                <p>See Randy's resume <a href="https://drive.google.com/file/d/168EeHYQZW8G_klA5XUTaHyWVJ9kTD-ul/view?usp=sharing">here</a>.</p>
+                <p>See Randy's GitHub <a href="https://github.com/RandonSRProctor">here</a>.</p>
             </Content>
         </div>
     );

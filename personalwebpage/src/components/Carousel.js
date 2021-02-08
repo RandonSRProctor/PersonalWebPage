@@ -16,8 +16,7 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'Weather Website',
-                    subTitle: 'Weather report from anywhere in the world.',
-                    description: 'Node.js using Express for API calls',
+                    subTitle: 'Node.js and Express',
                     imgSrc: WeatherApp,
                     link: 'https://rsrp-nodejs-weather-app.herokuapp.com/',
                     selected: false
@@ -25,18 +24,17 @@ class Carousel extends React.Component {
                 {
                     id: 1,
                     title: 'Tetris App',
-                    subTitle: 'A Simple Tetris Clone',
-                    description: 'Built using Vanilla JS',
+                    subTitle: 'Vanilla JS Tetris Clone',
                     imgSrc: TetrisApp,
-                    link: 'http://127.0.0.1:5500/index.html',
+                    link: 'https://codepen.io/randonsrproctor/full/mdOPgWJ',
                     selected: false
                 },
                 {
                     id: 2,
-                    title: 'Dev Grub',
-                    subTitle: 'The cookbook for developers',
+                    title: 'Math Practice',
+                    subTitle: 'Vanilla JS Math Quiz App',
                     imgSrc: MathPractice,
-                    link: 'https://devgrub.com',
+                    link: 'https://codepen.io/randonsrproctor/full/bGEQvGq',
                     selected: false
                 }
             ]
