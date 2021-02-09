@@ -16,7 +16,7 @@ function AboutPage(props) {
                 <p>Randy's original stack was Javascript for frontend, Java for backend, and relational DBs.</p>
                 <p>Randy has since learned to use NoSQL DBs and JS frameworks such as Vue.js and React</p>
                 <p>as well as Node.js and Express for his backend.</p>
-                <p>In addition to coding, Randy enjoys investing into the Cincinati tech community.</p>
+                <p>In addition to coding, Randy enjoys investing into the Cincinnati tech community.</p>
                 <p>Randy volunteers for Cincinnati Software Craftsmanship and returns to Tech Elevator</p>
                 <p>to encourage and help with new developers as they begin their journey.</p>
                 <p>See Randy's resume <a href="https://drive.google.com/file/d/168EeHYQZW8G_klA5XUTaHyWVJ9kTD-ul/view?usp=sharing">here</a>.</p>

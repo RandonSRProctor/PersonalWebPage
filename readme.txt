@@ -1,5 +1,5 @@
-This project contains a front end react app (personalwebpage) and a 
-backend Node.js server using express (personalwebpage-api)
+This project contains a front end react app (frontend) and a 
+backend Node.js server using express (backend)
 
 The backend is necessary to make API calls to Sendgrid with my API key hidden
 
