@@ -2,12 +2,20 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const sendGrid = require('@sendGrid/mail');
+const path = require('path');
 
 require('dotenv').config({path: './sendgrid.env'})
 
 const app = express();
 
+//tells app to look for build folder that contains build of react app
+app.use(express.static(path.join(__dirname, 'build')))
 
+
+//points to index.html
+app.get('/', function(req,res) {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'))
+})
 
 app.use(bodyParser.json());
 
