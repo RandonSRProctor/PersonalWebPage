@@ -9,5 +9,5 @@ server.  This eliminates the use of CORS and having to communicate between ports
 In order to update the front end a new build must be done (npm run build) and the
 resulting folder should be replaced in the backend directory
 
-Note that because Heroku deploys from a GitHub repo, and I have my env file ignored I will
-have to use Heroku's CLI to git them an env variable
+Newly updated backend should then be moved to separate repo which has the backend
+file that is connected to Heroku 
