@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const sendGrid = require('@sendGrid/mail');
+const sendGrid = require('@sendgrid/mail');
 const path = require('path');
 
 require('dotenv').config({path: './sendgrid.env'})
@@ -61,5 +61,9 @@ debugger
 
 });
 
+//Tries heroku.  If null then goes to 3000
+const port = process.env.PORT || 3000
 
-app.listen(3030, '0.0.0.0');
+app.listen(port, () => {
+    console.log(`Server is up on port ${port}.`)
+})
