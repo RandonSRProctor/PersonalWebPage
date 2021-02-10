@@ -8,6 +8,8 @@ require('dotenv').config({path: './sendgrid.env'})
 
 const app = express();
 
+
+
 //tells app to look for build folder that contains build of react app
 app.use(express.static(path.join(__dirname, 'build')))
 
