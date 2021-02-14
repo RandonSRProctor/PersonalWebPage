@@ -19,7 +19,7 @@ function AboutPage(props) {
                 <p>In addition to coding, Randy enjoys investing into the Cincinnati tech community.</p>
                 <p>Randy volunteers for Cincinnati Software Craftsmanship and returns to Tech Elevator</p>
                 <p>to encourage and help with new developers as they begin their journey.</p>
-                <p>See Randy's resume <a href="https://drive.google.com/file/d/168EeHYQZW8G_klA5XUTaHyWVJ9kTD-ul/view?usp=sharing">here</a>.</p>
+                <p>See Randy's resume <a href="https://drive.google.com/file/d/1E4Uh-4ZOf7-gMSTc9n7mTBmjsgJRlmy9/view?usp=sharing">here</a>.</p>
                 <p>See Randy's GitHub <a href="https://github.com/RandonSRProctor">here</a>.</p>
             </Content>
         </div>
