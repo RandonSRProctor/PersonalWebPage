@@ -1,13 +1,31 @@
-This project contains a front end react app (frontend) and a 
-backend Node.js server using express (backend)
+# My Personal Webpage
 
-The backend is necessary to make API calls to Sendgrid with my API key hidden
+A personal portfolio website built with React and Node.js
 
-For ease of deployment I have built the react app and put the build in the Node.js
-server.  This eliminates the use of CORS and having to communicate between ports.
+<br>
 
-In order to update the front end a new build must be done (npm run build) and the
-resulting folder should be replaced in the backend directory
+### Overview
 
-Newly updated backend should then be moved to separate repo which has the backend
-file that is connected to Heroku 
+<br>
+
+This site was built following a beginner's React tutorial on YouTube.
+
+Unfortunately, the tutorial - while functional - contains many bugs that I have been in the process of fixing.
+
+The page is functional and deployed using Heroku.  You are welcome to see the work-in-progress (links to my demos are active)
+
+www.randyprotor.net
+
+<br>
+
+### Fixes
+
+<br>
+
+I started by updated the "Contact" page to now be compatible with Sendgrid's API.
+
+There is a routing issue which causes pages to not reload, I have seen this problem with Vue.js before, and am working on a fix.
+
+I also will be updating the code from old paradigms to modern React component syntax.
+
+Please feel free to ask me about what I have changed already and what I have learned in the process!
