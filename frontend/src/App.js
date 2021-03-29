@@ -11,9 +11,7 @@ import ContactPage from './pages/ContactPage';
 
 class App extends React.Component {
 
-  constructor(props) {
-    super(props);
-    this.state = {
+    state = {
       title: 'Randy Proctor',
       headerLinks: [
         { title: 'Home', path: '/' },
@@ -32,7 +30,7 @@ class App extends React.Component {
         title: "Let's talk",
       }
     }
-  }
+  
 
   render() {
     return (
