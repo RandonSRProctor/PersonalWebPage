@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
 import { Container, Nav } from 'react-bootstrap';
 import { Navbar } from 'react-bootstrap';
 
@@ -36,7 +36,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
+      <BrowserRouter>
           <Container className="p-0" fluid={true}>
             <Navbar className="border-bottom" bg="transparent" expand="lg">
               <Navbar.Brand>Randy Proctor</Navbar.Brand>
@@ -74,7 +74,7 @@ class App extends React.Component {
 
 
           </Container>
-      </Router>
+      </BrowserRouter>
     );
   }
 }
